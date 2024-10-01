@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    background-color: rgba(34, 40, 49, 1);
+}
+
+.conteudo-cabeca{
+  display: flex;
+  justify-content: space-around;
+  gap: 5%;
+  padding: 1rem;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+
+.h3-cabeca{
+    font-family: sans-serif;
+    color: white;
+}
+
+.links-cabeca{
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    white-space: nowrap;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-size: 12px;
+}
+
+.meio{
+    display: flex;
+    justify-content: space-around;                                                    
+    margin-top: 120px;
+    margin-left: 180px;
+}
+
+.conteudo-meio-esquerdo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-right: 200px;
+}
+
+
+
+.my-img{
+ width: 80%;
+ margin-right: 80px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.botao{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: rgba(222, 89, 13, 1);
+    color: white;
+    font-family: sans-serif;
+    transition: box-shadow 0.10d ease;
+}
+
+.botao:hover{
+    background-color: rgba(247, 150, 94, 0.877);
+    box-shadow: 0 0 15px rgba(222, 89, 13, 1)
+}
+
+.fundo{
+    padding: 6%;
+}
+
+.texto-fundo{
+        display: flex;
+        font-family: "Cookie", cursive;
+        font-weight: 400;
+        font-style: normal;
+        border-top: 1px solid white;
+        justify-content: center;
+        border-bottom: 1px solid white;        
+    
+}
+
+.texto{
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 1.8rem;
+}
